@@ -23,7 +23,6 @@
     <img src="https://img.shields.io/github/issues-pr-closed-raw/VRLabs/World-Physics.svg?style=flat-square">
   </a>
   <br />
-  <br />
 </div>
 
 ## How it works
