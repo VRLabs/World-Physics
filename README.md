@@ -67,7 +67,7 @@ You can grab the latest version of the World Physics in [Releases](https://githu
 
 ## License
 
-World Physics is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/World-Physics/blob/dev/LICENSE).
+World Physics is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/World-Physics/blob/main/LICENSE).
 
 ## Contact us
 
