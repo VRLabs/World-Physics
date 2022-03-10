@@ -4,9 +4,6 @@
      Some bandaids to make physics work on avatars.
   </p>
   <a href="https://github.com/VRLabs/World-Physics/releases/latest">
-    <img src="https://img.shields.io/github/v/release/VRLabs/World-Physics.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/World-Physics/releases/latest">
     <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
   </a>
   <br />
