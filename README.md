@@ -33,9 +33,9 @@ Testing in Unity requires the [3.0 emulator by Lyuma](https://github.com/lyuma/A
 
 "Rigidbody" and "Collider" are set up for a physics demo. A cube falls and collides with the world.
 
-Select the World Physics object. The animator component references "Fix Colliders.controller", which plays "Fix Colliders.anim" outside of the local mirror.
+Select the World Physics object. The animator component references "Fix Colliders.controller", which plays "Fix Colliders.anim", but not for the mirror-copy of your avatar.
 
-Edit "Fix Colliders.anim" to enable collider components used for physics. Collider components being used for physics should be off by default, or they'll be on in the mirror and break collision. Make sure you're animating using paths that properly reference children of the World Physics object. Your paths should not have the "World Physics" name in them.
+Edit "Fix Colliders.anim" to enable collider components you want to use for physics. Collider components being used for physics should be off by default, or they'll be on in the mirror and break collision. Fix Colliders.controller only animates child hierarchy. Make sure your animation paths use the World Physics object as the root. Your paths should not have the "World Physics" name in them.
 
 Animate the collider game object active or inactive if you need to handle the collider in your FX layer. Don't animate the collider component or you may undo the fix.
 
