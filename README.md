@@ -39,7 +39,7 @@ Edit "Fix Colliders.anim" to enable collider components used for physics. Collid
 
 Animate the collider game object active or inactive if you need to handle the collider in your FX layer. Don't animate the collider component or you may undo the fix.
 
-Pay attention to the way the "Physics Demo" layer is split by IsLocal. The "Is Kinematic" rigidbody setting on the World Physics object should be on locally, and off remotely.
+Pay attention to the way the "Physics Demo" layer is split by the "IsLocal" parameter. The "Is Kinematic" rigidbody setting on the World Physics object should be on locally, and off remotely.
 
 The "Is Kinematic" property doesn't seem to persist, so you must constantly animate this property if you want it to stay the way you animated it.
 
