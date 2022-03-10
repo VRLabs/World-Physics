@@ -13,7 +13,7 @@
 
 World Constraint + Physics = World Physics
 
-This package fixes two problems that break avatar physics in VRChat. First, it fixes a collision bug by enabling collider components only outside of the mirror. Second, it uses an animated world constraint to prevent incorrect movement over the network with rigidbodies in world space. Unity physics is complex and making things work as you intend beyond these fixes is your responsibility.
+This package fixes two problems that break avatar physics in VRChat. First, it fixes a collision bug by keeping mirror-copies of collider components disabled. Second, it uses an animated world constraint to prevent incorrect movement over the network with rigidbodies in world space. Unity physics is complex and making things work as you intend beyond these fixes is your responsibility.
 
 ## Install guide
 
