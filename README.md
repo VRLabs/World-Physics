@@ -1,7 +1,7 @@
 <div>
   <h1>World Physics</h1>
   <p>
-     Some bandaids to make physics work on avatars.
+     World Constraint + Physics.
   </p>
   <a href="https://github.com/VRLabs/World-Physics/releases/latest">
     <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
@@ -10,8 +10,6 @@
 </div>
 
 ## How it works
-
-World Constraint + Physics = World Physics
 
 This package fixes two problems that break avatar physics in VRChat. First, it fixes a collision bug by keeping mirror-copies of collider components disabled. Second, it uses an animated world constraint to prevent incorrect movement over the network with rigidbodies in world space. Unity physics is complex and making things work as you intend beyond these fixes is your responsibility.
 
