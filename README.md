@@ -1,13 +1,11 @@
-<div>
-  <h1>World Physics</h1>
-  <p>
-     World Constraint + Physics.
-  </p>
-  <a href="https://github.com/VRLabs/World-Physics/releases/latest">
-    <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
-  </a>
-  <br />
-</div>
+# World Physics
+  
+[![Generic badge](https://img.shields.io/badge/Version-1.0-orange.svg)](https://github.com/VRLabs/World-Physics/releases/latest)
+[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/World-Physics/blob/main/LICENSE)  
+
+World Constraint + Physics.
 
 ## How it works
 
