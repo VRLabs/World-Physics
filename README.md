@@ -9,11 +9,15 @@ World Constraint + Physics.
 
 ## How it works
 
-This package fixes two problems that break avatar physics in VRChat. First, it fixes a collision bug by keeping mirror-copies of collider components disabled. Second, it uses an animated world constraint to prevent incorrect movement over the network with rigidbodies in world space. Unity physics is complex and making things work as you intend beyond these fixes is your responsibility.
+This package fixes two problems that break avatar physics in VRChat. First, it fixes a collision bug by keeping mirror-copies of collider components disabled. Second, it uses an animated world fixed joint to prevent incorrect movement over the network with rigidbodies under world constraints. Unity physics is complex and making things work as you intend beyond these fixes is your responsibility.
 
 ## Install guide
 
-Merge the FX and Gesture controllers to your own FX and Gesture controllers, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+You must be using the latest [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) version, as it adds "IsMirror" as a default parameter.
+
+[Local Mirror Detection](https://github.com/VRLabs/Local-Mirror-Detection) is required for this package to work. Import the package and merge the FX controller.
+
+Merge the FX controllers to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
  
 "World Physics.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
 
@@ -21,21 +25,11 @@ Unpack the prefab by right-clicking it.
 
 Place "World Physics" at the base of your avatar.
 
-Remove "Rigidbody Target" outside of "World Physics" and place it anywhere in your avatar's hierarchy. For the demo, lift the Rigidbody Target position on the Y axis, so there is room for the cube to fall.
-
-Use the [Layer Weight Tool](https://github.com/VRLabs/Layer-Weight-Tool/). Open VRLabs from the menu bar. Click "Apply Weight Controls".
+Remove "World Physics Target" outside of "World Physics" and place it anywhere in your avatar's hierarchy. For the demo, lift the "World Physics Target" position on the Y axis, so there is room for the cube to fall.
 
 ## How to use
 
-Testing in Unity requires the [3.0 emulator by Lyuma](https://github.com/lyuma/Av3Emulator).
-
-"Rigidbody" and "Collider" are set up for a physics demo. A cube falls and collides with the world.
-
-Select the World Physics object. The animator component references "Fix Colliders.controller", which plays "Fix Colliders.anim", but not for the mirror-copy of your avatar. Edit "Fix Colliders.anim" to enable collider components you want to use for physics. Collider components being used for physics should be off by default, or they'll be on in the mirror and break collision.
-
-Animate the collider game object active or inactive if you need to handle the collider in your FX layer. Don't animate the collider component or you may undo the fix.
-
-Pay attention to the way the "Physics Demo" layer is split by the "IsLocal" parameter. The "Is Kinematic" rigidbody setting on the World Physics object should be on locally, and off remotely.
+This package is set up for a physics demo. A cube falls and collides with the world. Use the demo to learn basic avatar physics.
 
 The "Is Kinematic" property doesn't seem to persist, so you must constantly animate this property if you want it to stay the way you animated it.
 
