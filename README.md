@@ -1,15 +1,15 @@
 # World Physics
   
+[![Generic badge](https://img.shields.io/badge/Version-1.1-orange.svg)](https://github.com/VRLabs/World-Physics/releases/latest)
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
-[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/World-Physics/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/World-Physics/total?label=Downloads)](https://github.com/VRLabs/World-Physics/releases/latest)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/World-Physics/blob/main/LICENSE)  
 
 World Constraint + Physics.
 
 ## How it works
 
-This package fixes two problems that break avatar physics in VRChat. First, it fixes a collision bug by keeping mirror-copies of collider components disabled. Second, it uses an animated world constraint to prevent incorrect movement over the network with rigidbodies in world space. The prefab contains a demo of a falling cube that will collide with the world. Unity physics is complex and making things work as you intend beyond these fixes is your responsibility.
+This package fixes two problems that break avatar physics in VRChat. First, it fixes a collision bug by keeping mirror-copies of collider components disabled. Second, it uses an animated world constraint to prevent incorrect movement over the network with rigidbodies in world space. Unity physics is complex and making things work as you intend beyond these fixes is your responsibility.
 
 ## Install guide
 
