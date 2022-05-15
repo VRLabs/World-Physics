@@ -31,8 +31,6 @@ Remove "World Physics Target" outside of "World Physics" and place it anywhere i
 
 This package is set up for a physics demo. A cube falls and collides with the world. Use the demo to learn basic avatar physics.
 
-The "Is Kinematic" property doesn't seem to persist, so you must constantly animate this property if you want it to stay the way you animated it.
-
 Using gravity seems to have some minor local-only issues on the Y axis and with culling. Not really a big deal, hard to even notice. Doesn't happen if you don't use gravity on a given rigidbody.
 
 ## Downloads
