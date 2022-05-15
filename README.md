@@ -31,8 +31,6 @@ Remove "World Physics Target" outside of "World Physics" and place it anywhere i
 
 This package is set up for a physics demo. A cube falls and collides with the world. Use the demo to learn basic avatar physics.
 
-Using gravity seems to have some minor local-only issues on the Y axis and with culling. Not really a big deal, hard to even notice. Doesn't happen if you don't use gravity on a given rigidbody.
-
 ## Downloads
 
 You can grab the latest version of the World Physics in [Releases](https://github.com/VRLabs/World-Physics/releases/latest).
