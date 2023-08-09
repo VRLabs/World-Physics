@@ -195,18 +195,18 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -2022435922671051662}
-    m_Position: {x: -340, y: 80, z: 0}
+    m_Position: {x: 30, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5324285636818556411}
-    m_Position: {x: -340, y: 150, z: 0}
+    m_Position: {x: 30, y: 250, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -320, y: -60, z: 0}
-  m_EntryPosition: {x: -320, y: 20, z: 0}
-  m_ExitPosition: {x: -320, y: -20, z: 0}
+  m_AnyStatePosition: {x: 50, y: 40, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 50, y: 80, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -2022435922671051662}
 --- !u!1101 &-223466525687007629
@@ -240,7 +240,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FX
+  m_Name: World Physics FX
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: IsLocal
@@ -248,13 +248,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: WorldPhysics/DetectMirror
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: World Physics Collider
@@ -394,27 +394,27 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -1839836683093022267}
-    m_Position: {x: -280, y: 10, z: 0}
+    m_Position: {x: 30, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2943571617411432530}
-    m_Position: {x: -280, y: 80, z: 0}
+    m_Position: {x: 30, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6326284379387247167}
-    m_Position: {x: -410, y: 150, z: 0}
+    m_Position: {x: -90, y: 320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2804244371157440001}
-    m_Position: {x: -280, y: 220, z: 0}
+    m_Position: {x: 150, y: 320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3030646866604312928}
-    m_Position: {x: -50, y: 10, z: 0}
+    m_Position: {x: 270, y: 180, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -260, y: -130, z: 0}
-  m_EntryPosition: {x: -260, y: -50, z: 0}
-  m_ExitPosition: {x: -260, y: -90, z: 0}
+  m_AnyStatePosition: {x: 50, y: 40, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 50, y: 80, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -1839836683093022267}
 --- !u!1101 &7509734346171270873
