@@ -23,23 +23,22 @@ Easy fix for Physics components behaving weirdly in world space
 
 ## How it works
 
-This package fixes two problems that break avatar physics in VRChat:
-* It fixes a collision bug by keeping mirror-copies of collider components disabled. 
-* It uses an animated world fixed joint to prevent incorrect remote movement with rigidbodies under world constraints.
-
-Unity physics is complex and making things work as you intend beyond these fixes is your responsibility.
+* By turning off colliders on the mirror clone we can prevent them from colliding with the player.
+* By using an animated fixed joint we can prevent incorrect movement of rigidbodies under world constraints for remote players.
 
 ## Install guide
 
 * Merge the Animator Controller ``World Physics FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``World Physics`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
-* Remove "World Physics Target" outside of "World Physics" and place it anywhere in your avatar's hierarchy.
-  * For the demo, lift the "World Physics Target" position on the Y axis, so there is room for the cube to fall.
+* Expand the prefab hierarchy and find ``World Physics Target``
+* Move ``World Physics Target`` outside of ``World Physics`` and place it anywhere in your avatars hierarchy as needed.
+  * For the demo, lift the ``World Physics Target`` position on the Y axis, so there is room for the cube to fall.
 
 ## How to use
 
 * This package is intended for leaning how these fixes work so you can apply them to your own systems. It is set up for a physics demo where cube falls and collides with the world.
+* Unity physics are complex and making things work as you intend beyond these fixes is your responsibility.
 
 ## Performance stats
 
