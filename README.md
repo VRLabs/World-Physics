@@ -28,6 +28,8 @@ Easy fix for Physics components behaving weirdly in world space
 
 ## Install guide
 
+https://github.com/VRLabs/World-Physics/assets/76777936/670ed186-a9b0-45af-8f54-a1adb4ec8541
+
 * Merge the Animator Controller ``World Physics FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``World Physics`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
