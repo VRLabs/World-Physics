@@ -12,7 +12,7 @@
 
 Easy fix for Physics components behaving weirdly in world space
 
-![WorldPhysics](https://github.com/VRLabs/World-Physics/assets/76777936/1ae58ea8-fc5e-41a1-8cf7-860a6470d03e)
+![WorldPhysics](https://github.com/VRLabs/World-Physics/assets/76777936/6c14b351-fd2e-4b22-8873-6fe4633c692a)
 
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/World-Physics/releases/latest)
