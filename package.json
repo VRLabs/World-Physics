@@ -2,6 +2,7 @@
     "name": "dev.vrlabs.world-physics",
     "displayName": "World Physics",
     "version": "1.3.999",
+    "license": "MIT",
     "unity": "2019.4",
     "description": "Easy fix for Physics components behaving weirdly in world space",
     "author": {
