@@ -18,7 +18,7 @@ namespace VRLabs.WorldPhysics
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/World Physics")]
+		[MenuItem("VRLabs/Create Instance/World Physics")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
