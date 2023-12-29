@@ -18,13 +18,13 @@
     "Assets\\VRLabs\\World Physics": "022cf6b4fef2546c591b9d4b2af30e0e"
   },
   "unityPackageDestinationFolder": "Assets/VRLabs/World Physics",
-  "unitypackageDestinationFolderMetas": {
-    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
-    "Assets/VRLabs/World Physics": "022cf6b4fef2546c591b9d4b2af30e0e"
-  },
   "vccRepoCategory": "components",
   "media": {
     "previewImage": "https://github.com/VRLabs/World-Physics/blob/main/Media/Preview.webp",
     "previewGif": "https://github.com/VRLabs/World-Physics/blob/main/Media/Preview.gif"
+  },
+  "unityPackageDestinationFolderMetas": {
+    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+    "Assets/VRLabs/World Physics": "022cf6b4fef2546c591b9d4b2af30e0e"
   }
 }
