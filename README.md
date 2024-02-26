@@ -17,8 +17,8 @@ Easy fix for Physics components behaving weirdly in world space
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/World-Physics/releases/latest)
 
-<!-- 
-### 📦 [Add to VRChat Creator Companion]() -->
+
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.world-physics)
 
 </div>
 
