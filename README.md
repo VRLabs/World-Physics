@@ -23,7 +23,7 @@ Easy fix for Physics components behaving weirdly in world space
 
 ## How it works
 
-* By turning off colliders on the mirror clone we can prevent them from colliding with the player.
+* By setting colliders to exclude playerlocal we can stop the mirror clone colliding with the local player.
 * By using an animated fixed joint we can prevent incorrect movement of rigidbodies under world constraints for remote players.
 
 ## Install guide
